@@ -1,0 +1,53 @@
+tomnomnom recon bash script :
+
+1) assetfinder --subs-only uber.com > domains
+cat domains
+
+cat domains | httprobe | tee hosts                      (http/https) tee-A
+
+meg -d 1000 -v /  (root mode scan )
+
+vi index
+
+grep -Hnri uber * | vi -
+
+:w results (save)
+
+/uber  (search)
+
+:%!grep -v content-sec
+:%!grep -vi
+
+gf tool
+
+gf gf aws-keys
+gf s3-buckets
+gf base64
+
+echo 'admin' | base64
+
+:%!awk -F':' '{print $3}'
+
+(ctrl-v) visual mode (horizontal selection)
+
+shift-A  (. repeated last setp
+/\.$s///
+
+:%! sort -u
+
+echo nasnjsnj | base64 -d
+
+:%!xargs -n1 -I{} sh -c 'echo {} | base64 -d 
+                         (xargs multiple line of input
+
+
+
+find . -type f | html-tool attribes src  | grep '\.js
+                                       
+(html takes list of files and can get all ext files)                                           
+
+git cat file -p objectID
+
+grep -a func'
+
+
